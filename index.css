@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 }
 :root{
-    --concreto #E2DFD8;
+    --concreto #E2DFD8 ;
     --concreto-escuro #CBC7BE;
     --tinta   #0F1E3D;
     --caixa-dagua #1F5FBF;
@@ -14,7 +14,7 @@ box-sizing: border-box;
     --fonte-cartaz 
 }
 body{
-    background-color: concreto;
+    background-color: ;
 
 
 
@@ -33,5 +33,13 @@ h1,h2,h3{
     padding-inline: 32px;
 }
 .topo{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 900px;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
 }
