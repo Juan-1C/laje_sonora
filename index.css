@@ -49,8 +49,19 @@ text-decoration: none;}
 .menu{
     display: flex;
  gap: 36px;
-
+ a{font-weight: 600;
+    text-decoration:none ;
+padding-bottom: 4px;
+border-bottom: 4px solid transparent;
 }
+}
+.menu a:hover{
+    border-bottom-color:var(--tinta);
+}
+.menu a.atual{
+    border-bottom-color:var(--fita);
+}
+
     
         
        
